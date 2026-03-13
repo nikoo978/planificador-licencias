@@ -342,24 +342,3 @@ font-size:12px;
     html += "</div>"
 
     st.markdown(html,unsafe_allow_html=True)
-
-# ---------------------------
-# BOTON IMPRIMIR
-# ---------------------------
-
-st.markdown("---")
-
-st.markdown("""
-<button onclick="window.print()" 
-style="
-background:#4CAF50;
-color:white;
-border:none;
-padding:12px 25px;
-font-size:16px;
-border-radius:6px;
-cursor:pointer;
-">
-🖨️ Imprimir calendario
-</button>
-""", unsafe_allow_html=True)
